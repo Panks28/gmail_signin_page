@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="./Assets/Google-logo.png">
+  </head>
+  <body>
+    <div class="bg-gray-200 flex items-center h-[100vh] justify-center absolute w-[100%]">
+      <div class="bg-white flex mx-28 p-8 rounded-3xl space-x-16">
+        <div class="left mr-60">
+          <img src="./Assets/Google-logo.png" class="h-12" />
+          <p class="text-3xl cursor-text mt-3">Sign in</p>
+          <p class="cursor-text mt-4">to continue to Gmail</p>
+        </div>
+        <div class="right pt-16">
+          <input
+            type="text"
+            placeholder="Email or phone"
+            class="h-12 px-3 border border-black rounded-sm w-[415px] placeholder:text-gray-600 hover:outline-1 outline-blue-700 focus:placeholder"
+          />
+          <p
+            class="text-blue-600 cursor-pointer text-sm font-medium mt-1.5 -ml-1 pl-1 h-5 hover:bg-blue-200 hover:rounded-2xl hover:w-24"
+          >
+            Forgot email?
+          </p>
+          <p class="mt-12 text-sm">
+            Not your computer? Use Guest mode to sign in privately.
+          </p>
+          <p
+            class="text-blue-600 font-medium text-sm cursor-pointer -ml-1 pl-1 hover:bg-blue-200 hover:rounded-2xl hover:w-60"
+          >
+            Learn more about using Guest mode
+          </p>
+          <div class="action-items flex flex-row justify-end space-x-5 mt-12">
+            <button
+              class="text-blue-600 px-4 py-2 rounded-3xl text-sm font-medium hover:bg-blue-100"
+            >
+              Create account
+            </button>
+            <button
+              class="bg-blue-600 px-5 py-2 rounded-3xl text-white text-sm font-medium hover:bg-blue-700"
+            >
+              Next
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="dropdown absolute mt-[430px] mr-[750px]">
+        <ul>
+          <li class="flex text-xs text-gray-700 cursor-pointer hover:bg-slate-300 hover: py-2 hover:px-4 hover:rounded-md">
+            English (United States)
+            <img src="./Assets/Drop.png" class="h-2 ml-6 mt-1.5 text-gray-400" />
+          </li>
+        </ul>
+      </div>
+      <div class="nav-items absolute mt-[430px] ml-[725px]">
+        <ul class="flex text-xs">
+          <li class="text-gray-700 cursor-pointer py-2 px-4 rounded-md hover:bg-slate-300">Help</li>
+          <li class="text-gray-700 cursor-pointer py-2 px-4 rounded-md hover:bg-slate-300">Privacy</li>
+          <li class="text-gray-700 cursor-pointer py-2 px-4 rounded-md hover:bg-slate-300">Terms</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
